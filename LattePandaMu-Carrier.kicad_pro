@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -759,13 +759,49 @@
         "uuid": "07ab76aa-21ac-4dd9-9287-fe7c28981c17"
       }
     ],
-    "used_designators": "A1",
+    "used_designators": "FID78-80,A1,H78-82,#PWR78-82",
     "variants": []
   },
   "sheets": [
     [
       "07ab76aa-21ac-4dd9-9287-fe7c28981c17",
       "LattePandaMu-Carrier"
+    ],
+    [
+      "ff88b059-d321-4388-9ede-b988440ad987",
+      "LattePanda Module"
+    ],
+    [
+      "352e2272-1f82-474e-a6c5-ab77b289e49d",
+      "Power Supply"
+    ],
+    [
+      "1ec4600f-df87-4485-bb25-7b31c9ee597b",
+      "Fan"
+    ],
+    [
+      "22d5a44a-7fbd-475f-85ca-8de6eb80b6d8",
+      "GPIO"
+    ],
+    [
+      "b2f7b387-d2e6-4f63-ad6e-862e8112f18d",
+      "PCIe x4"
+    ],
+    [
+      "d533153a-31c4-4e1c-b6a7-ecc33ac6fba1",
+      "Gigabit Ethernet"
+    ],
+    [
+      "abcea79a-a9ee-4f84-85fd-ba1001f6eea1",
+      "USB 2.0 & 3.0"
+    ],
+    [
+      "68d3ce0e-696b-43ce-a2e0-d6a1bf230323",
+      "HDMI"
+    ],
+    [
+      "664a28b9-711d-410c-817e-28b7ef99bc0b",
+      "M.2 M Key"
     ]
   ],
   "text_variables": {},
