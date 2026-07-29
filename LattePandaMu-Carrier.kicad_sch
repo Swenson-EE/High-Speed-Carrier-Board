@@ -344,6 +344,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 165.1 66.04) (xy 190.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ce751e-f2c4-4d50-9561-9aa229954baf")
+	)
+	(wire
+		(pts
+			(xy 165.1 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d313cf7-af24-4f26-bfb8-f0ec35b67246")
+	)
+	(wire
+		(pts
+			(xy 165.1 59.69) (xy 190.5 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7fde2d-f4da-4d3f-b5aa-ca97f90d949b")
+	)
+	(wire
+		(pts
+			(xy 165.1 72.39) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9979219-9262-4b86-8dea-9f539f98784d")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 496.57 321.31 0)
@@ -1252,6 +1292,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SLS_S3" input
+			(at 165.1 59.69 0)
+			(uuid "e00b35a7-b82b-4095-b983-02a791463306")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PWR_LED}{slash}~{PSON}" input
+			(at 165.1 66.04 0)
+			(uuid "3534846d-9521-4fa1-8d46-1f5c08b22ef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PWR_SW}" output
+			(at 165.1 72.39 0)
+			(uuid "d2992f8f-8f98-4b21-9784-4ff92406720a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST_SW}" output
+			(at 165.1 78.74 0)
+			(uuid "969f26a1-2fff-4e5d-bdb0-d41bf70f66c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2221,7 +2301,7 @@
 			)
 		)
 		(pin "SLS_S3" output
-			(at 266.7 342.9 270)
+			(at 190.5 59.69 180)
 			(uuid "695c42a9-d8ed-4dda-a456-db27d8ba9bc2")
 			(effects
 				(font
@@ -2421,7 +2501,7 @@
 			)
 		)
 		(pin "~{PWR_LED}{slash}~{PSON}" output
-			(at 295.91 342.9 270)
+			(at 190.5 66.04 180)
 			(uuid "598f310d-6636-4579-89ae-fb8467b2338c")
 			(effects
 				(font
@@ -2431,7 +2511,7 @@
 			)
 		)
 		(pin "~{PWR_SW}" input
-			(at 300.99 342.9 270)
+			(at 190.5 72.39 180)
 			(uuid "d8ec41ee-62f3-41e6-a3e3-91c3a4c644d3")
 			(effects
 				(font
@@ -2441,7 +2521,7 @@
 			)
 		)
 		(pin "~{RST_SW}" input
-			(at 306.07 342.9 270)
+			(at 190.5 78.74 180)
 			(uuid "c5724068-d0e0-4383-905a-09547befebb4")
 			(effects
 				(font
