@@ -358,6 +358,36 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 200.66) (xy 190.5 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06406080-9379-4d90-ad5e-0f337551cffe")
+	)
+	(wire
+		(pts
+			(xy 165.1 246.38) (xy 190.5 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa4a99c-9184-4b08-b78d-799832181cf0")
+	)
+	(wire
+		(pts
+			(xy 165.1 170.18) (xy 190.5 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ae88d4-8d33-4b72-8abe-15538f5aaac0")
+	)
+	(wire
+		(pts
 			(xy 165.1 66.04) (xy 190.5 66.04)
 		)
 		(stroke
@@ -365,6 +395,46 @@
 			(type default)
 		)
 		(uuid "17ce751e-f2c4-4d50-9561-9aa229954baf")
+	)
+	(wire
+		(pts
+			(xy 165.1 250.19) (xy 190.5 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281a5997-47ad-4dc5-9b7f-7b1db0c6e753")
+	)
+	(wire
+		(pts
+			(xy 165.1 215.9) (xy 190.5 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29944b8b-de3f-401c-876b-c9c458f40c56")
+	)
+	(wire
+		(pts
+			(xy 165.1 177.8) (xy 190.5 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8fef04-cf8c-4dae-a154-dcc325df012b")
+	)
+	(wire
+		(pts
+			(xy 165.1 212.09) (xy 190.5 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40273e53-3232-4acf-9417-53aad227aef3")
 	)
 	(wire
 		(pts
@@ -378,6 +448,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 254) (xy 190.5 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508451ec-23a1-4860-888e-640c4dd71846")
+	)
+	(wire
+		(pts
+			(xy 165.1 219.71) (xy 190.5 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6375075e-0d66-4102-9367-5a9e83194a9b")
+	)
+	(wire
+		(pts
 			(xy 165.1 78.74) (xy 190.5 78.74)
 		)
 		(stroke
@@ -385,6 +475,26 @@
 			(type default)
 		)
 		(uuid "6d313cf7-af24-4f26-bfb8-f0ec35b67246")
+	)
+	(wire
+		(pts
+			(xy 165.1 238.76) (xy 190.5 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704d0104-eebd-44ec-b954-f1ca363feb49")
+	)
+	(wire
+		(pts
+			(xy 165.1 234.95) (xy 190.5 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755ff007-80a4-4195-8d72-f55138b036fd")
 	)
 	(wire
 		(pts
@@ -398,6 +508,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 204.47) (xy 190.5 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdbfc04-d4cc-4a09-a11f-2b693669787b")
+	)
+	(wire
+		(pts
 			(xy 165.1 59.69) (xy 190.5 59.69)
 		)
 		(stroke
@@ -405,6 +525,66 @@
 			(type default)
 		)
 		(uuid "aa7fde2d-f4da-4d3f-b5aa-ca97f90d949b")
+	)
+	(wire
+		(pts
+			(xy 165.1 173.99) (xy 190.5 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adba16c6-272b-4973-8b35-d2949d65d035")
+	)
+	(wire
+		(pts
+			(xy 165.1 208.28) (xy 190.5 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2f0050-2b7c-47c5-acc1-97c48692c96e")
+	)
+	(wire
+		(pts
+			(xy 165.1 223.52) (xy 190.5 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda420b0-bee9-4c38-831e-a69d3d34ca93")
+	)
+	(wire
+		(pts
+			(xy 165.1 242.57) (xy 190.5 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0935553-0871-4e2d-87f6-9a25070472f9")
+	)
+	(wire
+		(pts
+			(xy 165.1 196.85) (xy 190.5 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28d2165-e690-4223-a8b7-8f5fc8c706ed")
+	)
+	(wire
+		(pts
+			(xy 165.1 166.37) (xy 190.5 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2b711b-e733-462d-ac4e-ff89e76d58ac")
 	)
 	(wire
 		(pts
@@ -1330,6 +1510,186 @@
 				(justify left top)
 			)
 		)
+		(pin "GPP_D0" bidirectional
+			(at 165.1 166.37 0)
+			(uuid "d41bcd52-2f50-4bc4-a971-70261bcaf7c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPP_D1" bidirectional
+			(at 165.1 170.18 0)
+			(uuid "6e87d9a2-2fea-412d-a2bf-e5671f89fd87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPP_D2" bidirectional
+			(at 165.1 173.99 0)
+			(uuid "55e4b27a-f2f1-45c9-bf3b-171f02e62a47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPP_D3" bidirectional
+			(at 165.1 177.8 0)
+			(uuid "a14215b7-8062-4860-81c8-76a33d5a740d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SCL" output
+			(at 165.1 196.85 0)
+			(uuid "dd6057a9-e1cb-45fc-8046-aa23a6699330")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SDA" bidirectional
+			(at 165.1 200.66 0)
+			(uuid "83bf2089-e697-4e2e-bf1f-073797b49bdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SCL" output
+			(at 165.1 204.47 0)
+			(uuid "bbdf498b-4a21-4f49-bb59-cfc3e34e49cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SDA" bidirectional
+			(at 165.1 208.28 0)
+			(uuid "5eb324f4-0775-4138-9261-f350db7f6292")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4_SCL" output
+			(at 165.1 212.09 0)
+			(uuid "3faafbc6-5af9-400d-8b00-9f42fb879a61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4_SDA" bidirectional
+			(at 165.1 215.9 0)
+			(uuid "7593eb8b-a913-4e39-bce1-688b8e456229")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C5_SCL" output
+			(at 165.1 219.71 0)
+			(uuid "c263b66f-c334-43a2-83f3-5fb43b428044")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C5_SDA" bidirectional
+			(at 165.1 223.52 0)
+			(uuid "abfeaecc-a685-4ef0-ba56-f7b497eec75e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SOC_UART0_RX" output
+			(at 165.1 234.95 0)
+			(uuid "39ea455f-2d4c-4bac-9340-45260de55a1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SOC_UART0_TX" input
+			(at 165.1 238.76 0)
+			(uuid "7ebe7ad5-32ff-402a-bb3d-3868ea1722da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SOC_UART1_RX" output
+			(at 165.1 242.57 0)
+			(uuid "67a645c3-99b2-4ecc-a157-a167d479fc37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SOC_UART1_TX" input
+			(at 165.1 246.38 0)
+			(uuid "b30d2d76-9d2e-4218-ab62-59c33b18ec36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SOC_UART2_RX" output
+			(at 165.1 250.19 0)
+			(uuid "9da75f93-1b24-4fc1-8502-0b172a7275d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SOC_UART2_TX" input
+			(at 165.1 254 0)
+			(uuid "9f5c82ab-c7a0-4303-8680-08ca1295c9ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17"
@@ -1823,7 +2183,7 @@
 			)
 		)
 		(pin "GPP_D0" bidirectional
-			(at 190.5 163.83 180)
+			(at 190.5 166.37 180)
 			(uuid "300dfaba-cc7a-4182-9bdc-2c7a75a2b3aa")
 			(effects
 				(font
@@ -1833,7 +2193,7 @@
 			)
 		)
 		(pin "GPP_D1" bidirectional
-			(at 190.5 166.37 180)
+			(at 190.5 170.18 180)
 			(uuid "d35bac32-3676-4dee-8c60-33c0dee67c99")
 			(effects
 				(font
@@ -1843,7 +2203,7 @@
 			)
 		)
 		(pin "GPP_D2" bidirectional
-			(at 190.5 168.91 180)
+			(at 190.5 173.99 180)
 			(uuid "11310521-2e0b-47d0-9158-b83197933ca3")
 			(effects
 				(font
@@ -1853,7 +2213,7 @@
 			)
 		)
 		(pin "GPP_D3" bidirectional
-			(at 190.5 171.45 180)
+			(at 190.5 177.8 180)
 			(uuid "e98086e0-e842-43aa-b046-d77177e674e8")
 			(effects
 				(font
@@ -2223,7 +2583,7 @@
 			)
 		)
 		(pin "I2C2_SCL" output
-			(at 190.5 184.15 180)
+			(at 190.5 196.85 180)
 			(uuid "2616681c-90aa-4ed1-81e0-2d72d158284b")
 			(effects
 				(font
@@ -2233,7 +2593,7 @@
 			)
 		)
 		(pin "I2C2_SDA" bidirectional
-			(at 190.5 186.69 180)
+			(at 190.5 200.66 180)
 			(uuid "581d58ad-8de7-4ff9-9ec6-8f04d8d4d827")
 			(effects
 				(font
@@ -2243,7 +2603,7 @@
 			)
 		)
 		(pin "I2C3_SCL" output
-			(at 190.5 189.23 180)
+			(at 190.5 204.47 180)
 			(uuid "0588be55-c419-400c-8926-30dbc70915df")
 			(effects
 				(font
@@ -2253,7 +2613,7 @@
 			)
 		)
 		(pin "I2C3_SDA" bidirectional
-			(at 190.5 191.77 180)
+			(at 190.5 208.28 180)
 			(uuid "7e391ba8-fc20-4ee5-ada2-bb1e17c7aca7")
 			(effects
 				(font
@@ -2263,7 +2623,7 @@
 			)
 		)
 		(pin "I2C4_SCL" output
-			(at 190.5 194.31 180)
+			(at 190.5 212.09 180)
 			(uuid "0fec6ecb-83d9-4f44-8009-c6eef056340d")
 			(effects
 				(font
@@ -2273,7 +2633,7 @@
 			)
 		)
 		(pin "I2C4_SDA" bidirectional
-			(at 190.5 196.85 180)
+			(at 190.5 215.9 180)
 			(uuid "8863aec1-000c-46c4-8450-745b170d9b45")
 			(effects
 				(font
@@ -2283,7 +2643,7 @@
 			)
 		)
 		(pin "I2C5_SCL" output
-			(at 190.5 199.39 180)
+			(at 190.5 219.71 180)
 			(uuid "d2e968af-cd76-4773-882b-7afa60f58f4a")
 			(effects
 				(font
@@ -2293,7 +2653,7 @@
 			)
 		)
 		(pin "I2C5_SDA" bidirectional
-			(at 190.5 201.93 180)
+			(at 190.5 223.52 180)
 			(uuid "90bd1507-96c5-4312-a6ab-70a6edfc6ad2")
 			(effects
 				(font
@@ -2393,7 +2753,7 @@
 			)
 		)
 		(pin "SOC_UART0_RX" input
-			(at 190.5 228.6 180)
+			(at 190.5 234.95 180)
 			(uuid "ac685f93-960b-48da-8685-e81cfb9d6e2f")
 			(effects
 				(font
@@ -2403,7 +2763,7 @@
 			)
 		)
 		(pin "SOC_UART0_TX" output
-			(at 190.5 231.14 180)
+			(at 190.5 238.76 180)
 			(uuid "9ab2704f-bb47-4cdd-adcf-744a0a65da90")
 			(effects
 				(font
@@ -2413,7 +2773,7 @@
 			)
 		)
 		(pin "SOC_UART1_RX" input
-			(at 190.5 233.68 180)
+			(at 190.5 242.57 180)
 			(uuid "aa4e6af0-592c-406f-b2a2-99e968699498")
 			(effects
 				(font
@@ -2423,7 +2783,7 @@
 			)
 		)
 		(pin "SOC_UART1_TX" output
-			(at 190.5 236.22 180)
+			(at 190.5 246.38 180)
 			(uuid "642dca0b-54d0-4eb1-b604-013b3a5be5b8")
 			(effects
 				(font
@@ -2433,7 +2793,7 @@
 			)
 		)
 		(pin "SOC_UART2_RX" input
-			(at 190.5 238.76 180)
+			(at 190.5 250.19 180)
 			(uuid "38c5bcf6-2e0a-4ba5-9739-0ba200e94009")
 			(effects
 				(font
@@ -2443,7 +2803,7 @@
 			)
 		)
 		(pin "SOC_UART2_TX" output
-			(at 190.5 241.3 180)
+			(at 190.5 254 180)
 			(uuid "f8a4098b-3c34-4339-bab9-23e749ba0c1c")
 			(effects
 				(font
