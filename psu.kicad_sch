@@ -5866,6 +5866,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 229.87) (xy 303.53 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007057d9-ed43-44a8-824b-27ad08523fc3")
+	)
+	(wire
+		(pts
 			(xy 354.33 229.87) (xy 341.63 229.87)
 		)
 		(stroke
@@ -6083,6 +6093,16 @@
 			(type default)
 		)
 		(uuid "129d88ad-c45b-46f2-85f4-943234e53a8a")
+	)
+	(wire
+		(pts
+			(xy 391.16 242.57) (xy 391.16 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c2275a-d87c-4668-b31a-5f4f54013cbe")
 	)
 	(wire
 		(pts
@@ -7126,16 +7146,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 229.87) (xy 303.53 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a841800-b6ba-44a1-8dfa-4fd66ecc0079")
-	)
-	(wire
-		(pts
 			(xy 354.33 257.81) (xy 328.93 257.81)
 		)
 		(stroke
@@ -7313,6 +7323,16 @@
 			(type default)
 		)
 		(uuid "7945f78e-03ba-4980-8b5b-163d88738cdb")
+	)
+	(wire
+		(pts
+			(xy 391.16 196.85) (xy 391.16 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798ab7b0-4a13-4973-bd3f-b05c3371abaf")
 	)
 	(wire
 		(pts
@@ -9593,6 +9613,16 @@
 		(uuid "088007f7-3de1-4740-b2d3-a1e9f238fc79")
 	)
 	(label "PWR_EN"
+		(at 264.16 100.33 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2445df6-46b9-4dba-afda-0f70e74abbb5")
+	)
+	(label "PWR_EN"
 		(at 270.51 184.15 0)
 		(effects
 			(font
@@ -10326,7 +10356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12138a36-a240-4764-9f66-372db8f006bc")
-		(property "Reference" "C?"
+		(property "Reference" "C71"
 			(at 306.07 224.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10388,7 +10418,7 @@
 		(instances
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
-					(reference "C?")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -11030,6 +11060,84 @@
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 391.16 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "269b6af9-14f5-4da2-96a5-b341f76196ae")
+		(property "Reference" "#PWR0118"
+			(at 391.16 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 391.16 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 391.16 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b90a65d9-5ec3-4c42-b9bd-b88eec375f48")
+		)
+		(instances
+			(project "LattePandaMu-Carrier"
+				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -12294,7 +12402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44cf8d70-e08b-4f4b-9740-26ad3e3629db")
-		(property "Reference" "U?"
+		(property "Reference" "U14"
 			(at 176.53 306.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12407,7 +12515,7 @@
 		(instances
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
-					(reference "U?")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -12574,6 +12682,84 @@
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
 					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 391.16 199.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bbac0d8-72c2-448d-9833-a669683be6aa")
+		(property "Reference" "#FLG085"
+			(at 391.16 201.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 391.16 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 391.16 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e3ca3c9-bd4e-495c-b800-c8017a7cc7e8")
+		)
+		(instances
+			(project "LattePandaMu-Carrier"
+				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
+					(reference "#FLG085")
 					(unit 1)
 				)
 			)
@@ -12903,6 +13089,84 @@
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
 					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 391.16 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5483e616-ec1f-4e26-bc77-dcfa1408a753")
+		(property "Reference" "#PWR0119"
+			(at 391.16 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 391.16 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 391.16 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6252fa6-2073-4205-b80a-806bbd61887e")
+		)
+		(instances
+			(project "LattePandaMu-Carrier"
+				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -13974,7 +14238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "719ea9a5-5300-4478-8325-882bb5076d85")
-		(property "Reference" "Q?"
+		(property "Reference" "Q8"
 			(at 250.19 267.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14044,7 +14308,7 @@
 		(instances
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
-					(reference "Q?")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -15586,7 +15850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98888900-2732-4ea1-833b-9d5744364dd1")
-		(property "Reference" "L?"
+		(property "Reference" "L2"
 			(at 320.04 225.552 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15648,7 +15912,7 @@
 		(instances
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
-					(reference "L?")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -16040,6 +16304,84 @@
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 391.16 246.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5e29498-6594-49c3-902e-f7d830e4090f")
+		(property "Reference" "#FLG086"
+			(at 391.16 248.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 391.16 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 391.16 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6cf470dc-0709-454a-8dfa-31690cfa3d53")
+		)
+		(instances
+			(project "LattePandaMu-Carrier"
+				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
+					(reference "#FLG086")
 					(unit 1)
 				)
 			)
@@ -16926,7 +17268,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "d4b124d5-303e-40ad-b392-5ea14caa57e0")
-		(property "Reference" "C?"
+		(property "Reference" "C72"
 			(at 342.392 184.404 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16990,7 +17332,7 @@
 		(instances
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
-					(reference "C?")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -17244,7 +17586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d852a5fe-83ff-4155-8ccc-27747c9fef23")
-		(property "Reference" "R51"
+		(property "Reference" "R46"
 			(at 236.22 233.426 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17306,7 +17648,84 @@
 		(instances
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
-					(reference "R51")
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "dab84eff-9478-45c5-8094-7a3ecf36069d")
+		(property "Reference" "TP9"
+			(at 260.858 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.858 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca813d32-82a9-41d8-8cfd-723cbd8c5e73")
+		)
+		(instances
+			(project "LattePandaMu-Carrier"
+				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -18527,7 +18946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f765add3-7fe3-460c-bef4-f8da37a45a9b")
-		(property "Reference" "U?"
+		(property "Reference" "U16"
 			(at 288.29 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18603,7 +19022,7 @@
 		(instances
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
-					(reference "U?")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -18781,7 +19200,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "fa85b9d0-30b8-4838-9ea6-2b322ee2a0bf")
-		(property "Reference" "C?"
+		(property "Reference" "C73"
 			(at 342.392 235.204 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18845,7 +19264,7 @@
 		(instances
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/352e2272-1f82-474e-a6c5-ab77b289e49d"
-					(reference "C?")
+					(reference "C73")
 					(unit 1)
 				)
 			)
