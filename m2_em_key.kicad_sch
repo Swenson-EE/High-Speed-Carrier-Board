@@ -11,8 +11,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -22.86 46.99 0)
+			(property "Reference" "J16"
+				(at 2.1433 50.8 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -23,16 +23,17 @@
 				)
 			)
 			(property "Value" "Bus_M.2_Socket_E"
-				(at 16.51 46.99 0)
+				(at 2.1433 48.26 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyE"
 				(at 0 26.67 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -55,6 +56,28 @@
 				)
 			)
 			(property "Description" "M.2 Socket 1-SD Mechanical Key E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S3.3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S4.1" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1320,6 +1343,42 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -1329,8 +1388,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -22.86 46.99 0)
+			(property "Reference" "J15"
+				(at 2.1433 50.8 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1341,16 +1400,17 @@
 				)
 			)
 			(property "Value" "Bus_M.2_Socket_M"
-				(at 16.51 46.99 0)
+				(at 2.1433 48.26 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyM"
 				(at 0 26.67 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1373,6 +1433,28 @@
 				)
 			)
 			(property "Description" "M.2 Socket 3 Mechanical Key M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S3.3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S4.1" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2658,6 +2740,42 @@
 						)
 					)
 					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5070,6 +5188,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 46.99 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 46.99 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2bd49d93-8c94-40bd-8cf9-3d9dd660c465")
 		)
@@ -5185,6 +5325,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 76.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 76.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 76.2 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5352,6 +5514,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 127 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 127 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c5fcae32-494d-495a-bd51-485d0928f7c2")
 		)
@@ -5422,6 +5606,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 127 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 127 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 127 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5546,6 +5752,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 144.78 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 144.78 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 144.78 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5713,6 +5941,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 342.9 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 342.9 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ece11d9-4f80-458d-a093-cd7777b947bc")
 		)
@@ -5830,6 +6080,28 @@
 		)
 		(property "Sim.Type" ""
 			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 144.78 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 144.78 162.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,6 +6504,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 342.9 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 342.9 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05b352a7-47ba-46b4-aeca-605392fa73f3")
 		)
@@ -6302,6 +6596,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 127 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 127 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 127 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6468,6 +6784,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 342.9 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 342.9 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "34bd17c9-7e56-4497-ae65-bb89e77dbeff")
 		)
@@ -6547,6 +6885,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 127 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 127 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe22f302-f28d-405f-80df-643605ade8e2")
 		)
@@ -6617,6 +6977,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 342.9 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 342.9 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 342.9 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6725,7 +7107,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6753,7 +7135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:MountingHole_2.75mm_M2_4.4mm_Pad_TopOnly"
+		(property "Footprint" "A_HDJ_Library:MountingHole_2.7mm_M2_Pad_TopOnly"
 			(at 223.52 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -6809,6 +7191,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 223.52 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 223.52 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 223.52 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -6941,6 +7345,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 292.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 292.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "586d6380-ee37-47e4-bd51-e42d234cdfc4")
 		)
@@ -7040,7 +7466,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7068,7 +7494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:MountingHole_2.75mm_M2_4.4mm_Pad_TopOnly"
+		(property "Footprint" "A_HDJ_Library:MountingHole_2.7mm_M2_Pad_TopOnly"
 			(at 196.85 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -7124,6 +7550,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 196.85 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 196.85 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 196.85 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -7282,6 +7730,28 @@
 			)
 		)
 		(property "Description" "M.2 Socket 3 Mechanical Key M"
+			(at 111.76 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 111.76 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 111.76 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7493,6 +7963,12 @@
 		(pin "69"
 			(uuid "35be0d77-a47e-4e69-b446-c5c17611cc22")
 		)
+		(pin "MP2"
+			(uuid "a825c264-b5de-4413-9d77-3a9ab397a7fd")
+		)
+		(pin "MP1"
+			(uuid "8b56d03d-43f1-4833-b917-02195fdbd670")
+		)
 		(instances
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/664a28b9-711d-410c-817e-28b7ef99bc0b"
@@ -7559,6 +8035,28 @@
 			)
 		)
 		(property "Description" "M.2 Socket 1-SD Mechanical Key E"
+			(at 327.66 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 327.66 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 327.66 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7770,6 +8268,12 @@
 		(pin "11"
 			(uuid "d6561e94-45d7-4bd8-97a2-a065e3899294")
 		)
+		(pin "MP2"
+			(uuid "91688785-8c3d-4885-992a-a5bc65059193")
+		)
+		(pin "MP1"
+			(uuid "b296d84e-0597-44d2-8979-79867d1d47e4")
+		)
 		(instances
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/664a28b9-711d-410c-817e-28b7ef99bc0b"
@@ -7890,6 +8394,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 368.3 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 368.3 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ecc1d1e4-3f74-4246-b45a-a5c439147456")
 		)
@@ -7969,6 +8495,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 46.99 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 46.99 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5fb9908-0e51-4536-9e68-bb10493c5da7")
 		)
@@ -8039,6 +8587,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 261.62 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 261.62 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 261.62 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8173,6 +8743,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 363.22 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 363.22 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7795eb96-0a86-4411-b943-c7b6d2900007")
 		)
@@ -8298,6 +8890,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 147.32 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 147.32 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4eabe411-04dc-4b6a-ae4d-67e4c486df8a")
 		)
@@ -8345,7 +8959,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:TestPoint_Pad_D1.5mm"
 			(at 83.82 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8369,6 +8983,28 @@
 		)
 		(property "Description" "test point"
 			(at 83.82 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 83.82 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 83.82 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8500,6 +9136,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 147.32 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 147.32 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "811e03a4-8025-4a37-94fb-e1a9ac56d8df")
 		)
@@ -8615,6 +9273,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 374.65 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 374.65 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 374.65 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8851,6 +9531,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 261.62 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 261.62 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 261.62 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

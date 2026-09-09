@@ -5952,6 +5952,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -8466,7 +8589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:TestPoint_Pad_D1.5mm"
 			(at 341.63 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -8489,6 +8612,28 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 336.55 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 336.55 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 336.55 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -8646,6 +8791,28 @@
 			)
 		)
 		(property "Description" "A micro computing module with x86 processer, RAM and eMMC."
+			(at 292.1 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 292.1 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 292.1 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -9527,6 +9694,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 457.2 321.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41170c03-a9b9-4385-a51a-fb5aadb1700b")
+		(property "Reference" "#PWR0197"
+			(at 457.2 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 457.2 326.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 457.2 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 457.2 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 457.2 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cae43390-47bc-432e-b673-a6e97379548f")
+		)
+		(instances
+			(project "LattePandaMu-Carrier"
+				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/ff88b059-d321-4388-9ede-b988440ad987"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 237.49 251.46 270)
 		(unit 1)
@@ -9557,7 +9802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 237.49 249.682 90)
 			(hide yes)
 			(show_name no)
@@ -9581,6 +9826,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 237.49 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 237.49 251.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9636,7 +9903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 308.61 49.022 90)
 			(hide yes)
 			(show_name no)
@@ -9660,6 +9927,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 308.61 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 308.61 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 308.61 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9793,7 +10082,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 382.778 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -9817,6 +10106,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 381 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 381 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 381 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9952,7 +10263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:Battery_Holder_CR1220_S8411-45R"
 			(at 321.056 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -10009,6 +10320,28 @@
 		)
 		(property "Sim.Pins" "1=+ 2=-"
 			(at 322.58 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 322.58 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 322.58 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10106,6 +10439,185 @@
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/ff88b059-d321-4388-9ede-b988440ad987"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 431.8 318.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8375135c-5de1-4d98-8191-e493934fd3c4")
+		(property "Reference" "H5"
+			(at 434.34 316.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 434.34 318.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3mm_M2_Pad_TopOnly"
+			(at 431.8 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 431.8 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 431.8 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 431.8 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 431.8 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1b85c36-b624-4a19-bc37-3fc2ae9d1131")
+		)
+		(instances
+			(project "LattePandaMu-Carrier"
+				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/ff88b059-d321-4388-9ede-b988440ad987"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 431.8 321.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8633fdfb-8e02-44fa-9a0e-6bf351e9481b")
+		(property "Reference" "#PWR0196"
+			(at 431.8 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 431.8 326.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 431.8 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 431.8 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 431.8 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20d62eea-1d58-4b7b-9dff-913495a9b7b3")
+		)
+		(instances
+			(project "LattePandaMu-Carrier"
+				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/ff88b059-d321-4388-9ede-b988440ad987"
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -10220,7 +10732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 391.668 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -10244,6 +10756,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 389.89 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 389.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 389.89 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10341,6 +10875,107 @@
 			(project "LattePandaMu-Carrier"
 				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/ff88b059-d321-4388-9ede-b988440ad987"
 					(reference "#FLG078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 457.2 318.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2a0ebec-8925-4329-bc53-b924652588f9")
+		(property "Reference" "H6"
+			(at 459.74 316.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 459.74 318.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3mm_M2_Pad_TopOnly"
+			(at 457.2 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 457.2 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 457.2 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 457.2 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 457.2 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9cc2764d-994e-4931-ada0-a37df3cd280e")
+		)
+		(instances
+			(project "LattePandaMu-Carrier"
+				(path "/07ab76aa-21ac-4dd9-9287-fe7c28981c17/ff88b059-d321-4388-9ede-b988440ad987"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -10534,7 +11169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 237.49 287.782 90)
 			(hide yes)
 			(show_name no)
@@ -10558,6 +11193,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 237.49 289.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 237.49 289.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10691,7 +11348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 349.25 263.398 90)
 			(hide yes)
 			(show_name no)
@@ -10715,6 +11372,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 349.25 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 349.25 261.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 349.25 261.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10873,6 +11552,28 @@
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 219.71 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 219.71 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 219.71 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

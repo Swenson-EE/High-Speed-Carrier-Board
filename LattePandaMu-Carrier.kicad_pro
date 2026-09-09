@@ -728,14 +728,74 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "HELPURL",
+          "name": "HELPURL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SCH_Show_Footprint",
+          "name": "SCH_Show_Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_UNNAMED_1",
+          "name": "ALTIUM_UNNAMED_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "J15",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "${EXCLUDE_FROM_BOARD}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -786,7 +846,7 @@
         "uuid": "07ab76aa-21ac-4dd9-9287-fe7c28981c17"
       }
     ],
-    "used_designators": "FID78-80,A1,A78-79,H78-82,BT78,#PWR78-195,R3-4,R78,R80-81,#FLG78-93,TP78,J78",
+    "used_designators": "FID78-80,A1,A78-79,H78-82,BT78,#PWR78-197,R3-4,R78,R80-81,#FLG78-93,TP78,J78",
     "variants": []
   },
   "sheets": [
