@@ -7108,6 +7108,26 @@
 		)
 		(uuid "ff9a6591-1e85-4489-8d84-a6b141e578b2")
 	)
+	(label "MDI2-"
+		(at 203.2 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01df032e-bf75-4cca-b2f7-264d4a051916")
+	)
+	(label "MDI2+"
+		(at 203.2 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "126fd596-ec41-4f90-94e0-2267bbf59003")
+	)
 	(label "MDI1-"
 		(at 160.02 90.17 0)
 		(effects
@@ -7128,25 +7148,25 @@
 		)
 		(uuid "31943a59-f129-424a-b5a6-093c141983dc")
 	)
-	(label "MDI0+"
-		(at 203.2 35.56 0)
+	(label "HSI-"
+		(at 110.49 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "323bf779-8289-478f-bddc-6af00a4c8cbf")
+		(uuid "33a687bd-7c63-440e-a526-e9b3e4e5a194")
 	)
-	(label "MDI3-"
-		(at 127 30.48 180)
+	(label "HSO-"
+		(at 110.49 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "397994b3-d3c7-4a67-9073-54a22769a208")
+		(uuid "37933c67-49d8-472b-ac7e-97b3bd72d82c")
 	)
 	(label "LED0_100"
 		(at 156.21 110.49 0)
@@ -7158,15 +7178,25 @@
 		)
 		(uuid "3eb2e156-13b6-4f5a-90a9-31b9dba8e2b1")
 	)
-	(label "MDI3+"
-		(at 127 35.56 180)
+	(label "HSI+"
+		(at 110.49 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "400de79a-be0e-49cd-8161-fd5c271fe12a")
+	)
+	(label "MDI3-"
+		(at 177.8 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "548c4642-b9df-465d-ba30-1622ea9e1e6f")
+		(uuid "4386de69-ef91-4c54-a0ca-496317327d16")
 	)
 	(label "MDI1+"
 		(at 160.02 92.71 0)
@@ -7198,7 +7228,27 @@
 		)
 		(uuid "669f90d1-31b1-4910-b460-95515252c647")
 	)
-	(label "MDI1+"
+	(label "HSO+"
+		(at 110.49 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69079df7-809c-4d39-9b0d-6d4c0818e2e4")
+	)
+	(label "MDI0-"
+		(at 127 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ea56dce-3804-4ca9-bf6b-bc99ff31d125")
+	)
+	(label "MDI3+"
 		(at 177.8 35.56 180)
 		(effects
 			(font
@@ -7206,17 +7256,17 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "67dc4da9-21ec-4ed1-930e-3c8365351fe8")
+		(uuid "a65ef2c1-5f62-4563-8bb0-decbe2f8a2d3")
 	)
-	(label "MDI0-"
-		(at 203.2 30.48 0)
+	(label "MDI1-"
+		(at 152.4 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9d57d5fc-e6fe-4deb-91bb-86de819a88e5")
+		(uuid "a78f9aaf-e2b9-4cbe-abf8-ac5a7eabb6e7")
 	)
 	(label "MDI3+"
 		(at 160.02 82.55 0)
@@ -7238,17 +7288,7 @@
 		)
 		(uuid "b8d3a651-8eec-413c-9bd3-2e1dcbcc575a")
 	)
-	(label "MDI1-"
-		(at 177.8 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "baad7dc8-d040-4e90-a049-9de6c440c3af")
-	)
-	(label "MDI2-"
+	(label "MDI1+"
 		(at 152.4 30.48 0)
 		(effects
 			(font
@@ -7256,7 +7296,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bae4f005-a798-468c-93f0-6f2a18a621d9")
+		(uuid "c5fc8d75-0fd1-4ee7-ba4b-351d414bc5ef")
+	)
+	(label "MDI0+"
+		(at 127 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d0b43528-ad1a-42c4-90e4-f3ccfd4619a5")
 	)
 	(label "MDI2-"
 		(at 160.02 85.09 0)
@@ -7267,16 +7317,6 @@
 			(justify left bottom)
 		)
 		(uuid "d420dd96-2f2c-4eb5-add7-e0356e40bc4f")
-	)
-	(label "MDI2+"
-		(at 152.4 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d75e4f34-53de-48ae-b6f0-715e4003ed29")
 	)
 	(label "LED2_ACT"
 		(at 156.21 115.57 0)
@@ -9232,8 +9272,8 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "7ca1a72c-f4d7-43fa-bc76-325ef0e17646")
@@ -10431,8 +10471,8 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "ca1a55a9-4c1a-4e0b-bee1-ea3b2ea4e42d")
