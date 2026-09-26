@@ -2194,16 +2194,6 @@
 		(uuid "fd96cbd2-e5de-429e-b5e9-e70f387034e6")
 	)
 	(label "SOC_UART1_TX"
-		(at 101.6 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09521a71-aad4-470c-aa1a-976bfe26c7ea")
-	)
-	(label "SOC_UART1_TX"
 		(at 107.95 129.54 0)
 		(effects
 			(font
@@ -2213,25 +2203,15 @@
 		)
 		(uuid "0ffc2eae-4217-4db0-8091-6283fd8eed6e")
 	)
-	(label "I2C3_SDA"
-		(at 38.1 73.66 180)
+	(label "SOC_UART1_TX"
+		(at 63.5 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "10775f48-82cd-46cb-9a54-532262a7be10")
-	)
-	(label "SOC_UART1_RX"
-		(at 38.1 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1fee1d1f-45ec-4d0b-b4e5-4a603b46e943")
+		(uuid "1e83bf8e-e1f7-4e93-8e0b-e41f6ab80e95")
 	)
 	(label "I2C2_SDA"
 		(at 38.1 68.58 180)
@@ -2253,15 +2233,15 @@
 		)
 		(uuid "2e77cddc-c545-44ce-a6cd-b620fa1795be")
 	)
-	(label "I2C4_SCL"
-		(at 127 68.58 0)
+	(label "SOC_UART2_RX"
+		(at 101.6 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "431897b0-b0ec-4c15-82fb-e66945bfabc4")
+		(uuid "4a8deeec-6a3e-4f4f-9946-88fd56c07634")
 	)
 	(label "SOC_UART0_RX"
 		(at 38.1 157.48 180)
@@ -2283,6 +2263,16 @@
 		)
 		(uuid "57d06d28-c4de-4352-8b4a-7d38b9e046e3")
 	)
+	(label "SOC_UART2_TX"
+		(at 101.6 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5aa2fac1-f8f7-46e0-b94e-69045bc865cd")
+	)
 	(label "SOC_UART0_RX"
 		(at 44.45 127 0)
 		(effects
@@ -2292,16 +2282,6 @@
 			(justify left bottom)
 		)
 		(uuid "6375e79b-261a-4797-ad9e-6e7e0a23296b")
-	)
-	(label "I2C5_SDA"
-		(at 63.5 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6bbc5a28-4ff5-46f2-805e-6472c549b0d8")
 	)
 	(label "SOC_UART0_TX"
 		(at 107.95 127 0)
@@ -2333,15 +2313,25 @@
 		)
 		(uuid "7f23970c-ad99-4ad1-8b23-a2ce260827df")
 	)
-	(label "SOC_UART0_TX"
-		(at 101.6 157.48 180)
+	(label "I2C5_SDA"
+		(at 127 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "819d8a72-54f6-486b-bed4-b670dbd4456c")
+		(uuid "88e66d2f-96f3-4de5-afa7-c354ec6f2a7b")
+	)
+	(label "SOC_UART1_RX"
+		(at 63.5 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c2e7eb4-1177-45cf-bb36-f66504fed427")
 	)
 	(label "GPP_D1"
 		(at 222.25 67.31 180)
@@ -2373,16 +2363,6 @@
 		)
 		(uuid "97ee561a-1d2c-4341-bd3a-d6a04a0a322a")
 	)
-	(label "SOC_UART2_TX"
-		(at 127 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99464b9f-3caa-4261-af82-d3eec67a0b95")
-	)
 	(label "SOC_UART1_RX"
 		(at 44.45 129.54 0)
 		(effects
@@ -2392,16 +2372,6 @@
 			(justify left bottom)
 		)
 		(uuid "9afdc9de-62e4-4efc-bcbb-8f0636642d03")
-	)
-	(label "I2C4_SDA"
-		(at 63.5 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ef0a3e7-cdce-4527-91b6-361d0717b317")
 	)
 	(label "I2C4_SCL"
 		(at 93.98 43.18 0)
@@ -2473,26 +2443,6 @@
 		)
 		(uuid "c123573f-cc15-4311-a580-80850944371f")
 	)
-	(label "I2C2_SCL"
-		(at 101.6 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c96727be-5662-4ed4-b94b-aff9bce4a733")
-	)
-	(label "SOC_UART2_RX"
-		(at 63.5 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc19ccfc-3b56-45ca-8121-c6e9c4bd2b75")
-	)
 	(label "I2C5_SCL"
 		(at 93.98 45.72 0)
 		(effects
@@ -2524,14 +2474,54 @@
 		(uuid "d44c0c50-09a1-4146-9b98-1635ab11b9f0")
 	)
 	(label "I2C3_SCL"
-		(at 101.6 73.66 180)
+		(at 63.5 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4d2b927-fc56-4e73-bd9d-e541e0795828")
+	)
+	(label "I2C2_SCL"
+		(at 38.1 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d5c1f2a4-d387-4818-9465-c48d15baf95a")
+		(uuid "d9cca112-2d7f-4098-8623-8ff0cb4e2a76")
+	)
+	(label "SOC_UART0_TX"
+		(at 38.1 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de99659b-af4c-4501-96ed-69b99d91900c")
+	)
+	(label "I2C4_SDA"
+		(at 101.6 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df9124c4-cfd3-4268-a1be-98863d91476f")
+	)
+	(label "I2C3_SDA"
+		(at 63.5 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e402756c-2365-43c5-bc26-cf6889b4653e")
 	)
 	(label "GPP_D3"
 		(at 247.65 67.31 0)
@@ -2542,6 +2532,16 @@
 			(justify left bottom)
 		)
 		(uuid "e447feb5-4501-4826-aece-386fd2685204")
+	)
+	(label "I2C4_SCL"
+		(at 101.6 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9ed203d-67f6-4a99-8ff2-397614952a14")
 	)
 	(label "GPP_D0"
 		(at 234.95 38.1 0)
