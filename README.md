@@ -43,6 +43,26 @@ The carrier board interfaces with the module through its high-density connectors
 
 ---
 
+## PCB Designs
+
+<table style="background: white;">
+  <tr>
+    <td align="center"><b>Top Silk Screen</b><br><img src="./graphics/LattePandaMu-Carrier-F_Silkscreen.svg" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Front Cu (L1)</b><br><img src="./graphics/LattePandaMu-Carrier-F_Cu.svg" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>GND (L2)</b><br><img src="./graphics/LattePandaMu-Carrier-In1_GND.svg" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>PWR (L3)</b><br><img src="./graphics/LattePandaMu-Carrier-In2_PWR.svg" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Bottom Cu (L4)</b><br><img src="./graphics/LattePandaMu-Carrier-B_Cu.svg" width="400"/></td>
+  </tr>
+</table>
+
 ## Interfaces
 
 The carrier board is designed around several interfaces provided by the LattePanda Mu.
